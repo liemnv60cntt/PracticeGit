@@ -8,7 +8,7 @@ namespace PracticeNetCore.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
+        "Freesadsadsadsadsadsadsdddddđadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
     };
     private static readonly string[] Summaries2 = new[]
         {
