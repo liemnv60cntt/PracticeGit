@@ -8,7 +8,23 @@ namespace PracticeNetCore.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching"
+        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
+    };
+    private static readonly string[] Summaries2 = new[]
+        {
+        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
+    };
+    private static readonly string[] Summaries3 = new[]
+        {
+        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
+    };
+    private static readonly string[] Summaries4 = new[]
+        {
+        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
+    };
+    private static readonly string[] Summaries5 = new[]
+        {
+        "Freesadsadsadsadsadsadsadsadsadzing", "Bracindfsdfg", "Chsadsadilly", "Cosadsadol", "Hodsádsadsadfsdft", "Swelterisdfsadsadsadsfdsfng", "Scorchsádsadsaddfsdfdsing"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -18,25 +34,25 @@ namespace PracticeNetCore.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet(Name = "GetWeatherForecasưeeeeeeeeeeeeeeeeeeet")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summaryyy = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
         }
-        [HttpGet(Name = "GetData")]
+        [HttpGet(Name = "GetDawwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwta")]
         public IEnumerable<WeatherForecast> GetData()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+                Summaryyy = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
         }
