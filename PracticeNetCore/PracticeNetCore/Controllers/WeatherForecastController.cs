@@ -8,7 +8,7 @@ namespace PracticeNetCore.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        "Freezing", "Bracing", "Chilly", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching", "Scorching"
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
