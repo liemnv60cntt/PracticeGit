@@ -1,2 +1,11 @@
-# PracticeGit
-Practice git command
+# PraPracticegitgitgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandcticeGit
+Practicegitgitgitgit git command
+PracticegitgitPracticegitgitgitgit git commandvgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandPracticegitgitgitgit git commandvv
+Practicegitgitgitgit git command
+v
+
+lv
+vvPracticegitgitgitgit git command
+v
+Practicegitgitgitgit git commandv
+Practicegitgitgitgit git command
